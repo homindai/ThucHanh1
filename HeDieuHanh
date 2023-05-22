@@ -1,0 +1,15 @@
+package thuchanh4;
+class HeDieuHanh extends MayTinh {
+    private String heDieuHanh;
+
+    public HeDieuHanh(String maSo, String ten, String cpu, int ram, SoPhong soPhong, String heDieuHanh) {
+        super(maSo, ten, cpu, ram, soPhong);
+        this.heDieuHanh = heDieuHanh;
+    }
+
+    @Override
+    public void hienThiThongTin() {
+        super.hienThiThongTin();
+        System.out.println("Hệ điều hành: " + heDieuHanh);
+    }
+}
