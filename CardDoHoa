@@ -1,0 +1,15 @@
+package thuchanh4;
+class CardDoHoa extends MayTinh {
+    private String cardDoHoa;
+
+    public CardDoHoa(String maSo, String ten, String cpu, int ram, SoPhong soPhong, String cardDoHoa) {
+        super(maSo, ten, cpu, ram, soPhong);
+        this.cardDoHoa = cardDoHoa;
+    }
+
+    @Override
+    public void hienThiThongTin() {
+        super.hienThiThongTin();
+        System.out.println("Card đồ họa: " + cardDoHoa);
+    }
+}
