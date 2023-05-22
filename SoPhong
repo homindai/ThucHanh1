@@ -1,0 +1,23 @@
+package thuchanh4;
+class SoPhong {
+    private String maSo;
+    private String ten;
+
+    public SoPhong(String maSo, String ten) {
+        this.maSo = maSo;
+        this.ten = ten;
+    }
+
+    public String getMaSo() {
+        return maSo;
+    }
+
+    public String getTen() {
+        return ten;
+    }
+
+    public void hienThiThongTin() {
+        System.out.println("Mã số phòng: " + maSo);
+        System.out.println("Tên phòng: " + ten);
+    }
+}
